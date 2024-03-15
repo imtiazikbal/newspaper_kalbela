@@ -35,7 +35,7 @@ Route::middleware(['auth'])->group(function () {
 });
 
 
-// Category Routegit 
+// Category Route
 Route::get('/admin/category', [CategoryController::class, 'index']);
 Route::get('/admin/create/category', [CategoryController::class, 'create']);
 Route::get('/admin/store/category', [CategoryController::class, 'store']);
